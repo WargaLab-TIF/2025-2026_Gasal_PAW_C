@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Data</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <font face="verdana">
+          <table align="center">
+            <caption>
+              <font color="black" size="5">
+                <b>STUDENT DATA</b>
+              </font>
+            </caption>
+            <thead bgcolor="RoyalBlue">
+              <tr>
+                <th colspan="4" align="left">
+                  <label>PERSONAL DATA</label>
+                </th>
+              </tr>
+            </thead>
+            <tr>
+              <td>
+                <label for="nama"><font size="3">Name</font></label>
+              </td>
+              <td><input type="text" name="First Name" id="nama" size="27" required /></td>
+              <td><input type="text" name="Middle Name" id="nama" size="27" required /></td>
+              <td><input type="text" name="Last Name" id="nama" size="27" required /></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <label><font size="1,5">First Name</font></label>
+              </td>
+              <td>
+                <label><font size="1">Middle Name</font></label>
+              </td>
+              <td>
+                <label><font size="1">Last Name</font></label>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="nim">NIM</label></td>
+              <td colspan="2"><input type="text" name="nim" id="nim" size="60" required /></td>
+              <td>
+                <select required>
+                  <option value="-- Year of University Entrance --">-- Year of University Entrance --</option>
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="subjects">Faculty, Department & Program</label></td>
+              <td>
+                <select name="subjects" id="subjects" required>
+                  <option value="faculty">-- Faculty --</option>
+                  <option value="Engineering">Engineering</option>
+                  <option value="Law">Law</option>
+                  <option value="Economics">Economics</option>
+                </select>
+              </td>
+              <td>
+                <select name="subjects" id="subjects" required>
+                  <option value="-- Department --">-- Department --</option>
+                  <option value="Informatics">Informatics</option>
+                  <option value="Industrial Engineering">Industrial Engineering</option>
+                  <option value="Electrical Engineering">Electrical Engineering</option>
+                </select>
+              </td>
+              <td>
+                <select name="subjects" id="subjects" required>
+                  <option value="-- Study Program --">-- Study Program--</option>
+                  <option value="Informatics">Informatics</option>
+                  <option value="Information System">Information System</option>
+                  <option value="Industrial Engineering">Industrial Engineering</option>
+                  <option value="Mechanical Engineering">Mechanical Engineering</option>
+                  <option value="Mechatronics Engineering">Mechatronics Engineering</option>
+                  <option value="Electrical Engineering">Electrical Engineering</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Gender</label></td>
+              <td>
+                <label for="Male">Male<input type="radio" name="gender" id="Male" value="Male" required /></label>
+                <label for="Female">Female<input type="radio" name="gender" id="Female" value="Female" required /></label>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email</label></td>
+              <td colspan="3">
+                <input type="email" name="email" id="email" size="92" required />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="address">Address</label></td>
+              <td colspan="3">
+                <textarea name="address" id="address" cols="86" rows="4" required></textarea>
+              </td>
+            </tr>
+            <thead bgcolor="RoyalBlue">
+              <tr>
+                <th colspan="4" align="left">
+                  <label>SUPPORT & ACCOUNT</label>
+                </th>
+              </tr>
+            </thead>
+            <tr>
+              <td colspan="4">
+                <label for="support">Do you have scholarship support?</label>
+              </td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="Do you have scholarship support" id="support" value="No" required />No</td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="Do you have scholarship support" id="support" value="Yes" required />Yes</td>
+              <td colspan="3">
+                <input type="text" name="Do you have scholarship support" id="support" size="92" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <label>Do you have access to the trunojoyo email account?</label>
+              </td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="Do you have access to the trunojoyo email account?" id="access" value="No" required />No</td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="Do you have access to the trunojoyo email account?" id="access" value="Yes" required />Yes</td>
+            </tr>
+            <thead bgcolor="RoyalBlue">
+              <tr>
+                <th colspan="4" align="left">
+                  <label>EDUCATION</label>
+                </th>
+              </tr>
+            </thead>
+            <tr>
+              <td>
+                <label><font size="3">Primary School</font></label>
+              </td>
+              <td><input type="text" name="School Name" id="School Name" size="27" required /></td>
+              <td><input type="text" name="Website URL" id="Website URL" size="27" required /></td>
+              <td>
+                <select name="year-of-graduate" required>
+                  <option value="-- year of Graduate --">-- Year of Graduate --</option>
+                  <option value="2008">2008</option>
+                  <option value="2009">2009</option>
+                  <option value="2010">2010</option>
+                  <option value="2011">2011</option>
+                  <option value="2012">2012</option>
+                  <option value="2013">2013</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <label for="School Name"><font size="1">School Name</font></label>
+              </td>
+              <td>
+                <label for="Website URL"><font size="1">Website URL</font></label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="Middle-School"><font size="3">Middle School</font></label>
+              </td>
+              <td><input type="text" name="School Name" id="School Name" size="27" required /></td>
+              <td><input type="text" name="Website URL" id="Website URL" size="27" required /></td>
+              <td>
+                <select name="year-of-graduate" id="" required>
+                  <option value="-- year of Graduate --">-- Year of Graduate --</option>
+                  <option value="2011">2011</option>
+                  <option value="2012">2012</option>
+                  <option value="2013">2013</option>
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <label for="School Name"><font size="1">School Name</font></label>
+              </td>
+              <td>
+                <label for="Website URL"><font size="1">Website URL</font></label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="High-School"><font size="3">High School</font></label>
+              </td>
+              <td><input type="text" name="School Name" id="School Name" size="27" required /></td>
+              <td><input type="text" name="Website URL" id="Website URL" size="27" required /></td>
+              <td>
+                <select name="year-of-graduate" id="" required>
+                  <option value="-- year of Graduate --">-- Year of Graduate --</option>
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <label for="School Name"><font size="1">School Name</font></label>
+              </td>
+              <td>
+                <label for="Website URL"><font size="1">Website URL</font></label>
+              </td>
+            </tr>
+            <thead bgcolor="RoyalBlue">
+              <tr>
+                <th colspan="4" align="left">
+                  <label>SOFTWARE SKILL</label>
+                </th>
+              </tr>
+            </thead>
+            <tr>
+              <td><label for="Office-Software">Office Software</label></td>
+              <td><input type="checkbox" name="Office Software" id="Office Software" value="Microsoft Word" /><label for="M.Word">Microsoft Word</label></td>
+              <td><input type="checkbox" name="Office Software" id="Office Software" value="Microsoft Access" /><label for="M.Access">Microsoft Access</label></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="checkbox" name="Office Software" id="Office Software" value="Microsoft Excel" /><label for="M.Excel">Microsoft Excel</label></td>
+              <td><input type="checkbox" name="Office Software" id="Office Software" value="Other" /><label for="Other">Other</label></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <td></td>
+            <tr>
+              <td><label for="Operating-System">Operating System</label></td>
+              <td><input type="checkbox" name="Operating System" id="Operating System" value="Windows" /><label for="Windows">Windows</label></td>
+              <td><input type="checkbox" name="Operating System" id="Operating System" value="MacOS" /><label for="MacOS">MacOS</label></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="checkbox" name="Operating System" id="Operating System" value="Linux" /><label for="Linux">Linux</label></td>
+              <td><input type="checkbox" name="Operating System" id="Operating System" value="Other" /><label for="Other">Other</label></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <td></td>
+            <tr>
+              <td>
+                <label for="Programming-Language">Programming Language</label>
+              </td>
+              <td><input type="checkbox" name="Programming Language" id="Programming Language" value="Python" /><label for="Python">Python</label></td>
+              <td><input type="checkbox" name="Programming Language" id="Programming Language" value="C++" /><label for="C++">C++</label></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="checkbox" name="Programming Language" id="Programming Language" value="Java" /><label for="Java">Java</label></td>
+              <td><input type="checkbox" name="Programming Language" id="Programming Language" value="Other" /><label for="Other">Other</label></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>
+                <input type="submit" value="Submit Form" name="submit" id="submit" />
+              </td>
+            </tr>
+          </table>
+        </font>
+      </fieldset>
+    </form>
+  </body>
+</html>
