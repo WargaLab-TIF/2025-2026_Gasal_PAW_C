@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validasi</title>
+</head>
+<body>
+
+  <h2>Form Pendaftaran</h2>
+
+  <form name="myForm" action="processData.php" method="POST">
+
+    <div class="field">
+      <label for="surname">Surname:</label>
+      <input type="text" id="surname" name="surname" size="31" required>
+    </div>
+
+    <div class="field">
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" size="31" required>
+    </div>
+
+    <div class="field">
+      <label for="passwd">Password:</label>
+      <input type="password" id="passwd" name="passwd" size="31" required>
+    </div>
+
+    <div class="field">
+      <label for="address">Street Address:</label>
+      <textarea id="address" name="address" rows="3" cols="27"></textarea>
+    </div>
+
+    <div class="field">
+      <label for="state">State:</label>
+      <select id="state" name="state" required>
+        <option value="0" selected>[Choose your state]</option>
+        <option value="1">Australia</option>
+        <option value="2">Amerika</option>
+        <option value="3">Rusia</option>
+        <option value="4">Indonesia</option>
+        <option value="5">Malaysia</option>
+        <option value="6">Singapura</option>
+        <option value="7">Mexico</option>
+        <option value="8">Jepang</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <input type="hidden" name="country" value="Australia">
+    </div>
+
+    <div class="field">
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+    </div>
+
+    <div class="field">
+      <label for="vegetarian">Vegetarian:</label>
+      <input type="checkbox" id="vegetarian" name="vegetarian">
+    </div>
+
+    <div class="field">
+      <label>&nbsp;</label>
+      <input type="submit" value="Submit" name="submit">
+      <input type="reset" value="Reset" name="reset">
+    </div>
+
+  </form>
+
+</body>
+</html>
