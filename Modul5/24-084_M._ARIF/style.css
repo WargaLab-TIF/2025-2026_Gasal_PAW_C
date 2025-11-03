@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #2b2b2b;
+    color: white;
+}
+
+.btn-tambah, .btn-edit, .btn-hapus {
+    padding: 6px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-tambah { background: green; }
+.btn-edit { background: orange; }
+.btn-hapus { background: red; }
+.btn-tambah:hover, .btn-edit:hover, .btn-hapus:hover {
+    opacity: 0.8;
+}
