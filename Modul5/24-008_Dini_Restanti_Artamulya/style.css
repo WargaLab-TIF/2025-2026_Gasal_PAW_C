@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h2 {
+    color: #3c8dbc;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #e9f3fb;
+    color: #333;
+}
+
+.btn-tambah {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn-edit {
+    background-color: #f39c12;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn-hapus {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type=text], input[type=submit] {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.btn-simpan {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
