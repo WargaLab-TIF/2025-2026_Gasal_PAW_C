@@ -1,0 +1,90 @@
+/* Umum */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e1f5fe, #b3e5fc);
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #81d4fa; /* biru pastel */
+    border-bottom: 3px solid #4fc3f7;
+    box-shadow: 0 4px 10px rgba(0, 150, 200, 0.2);
+}
+
+.navbar-brand {
+    color: #01579b !important;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px #b3e5fc;
+    transition: 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #0277bd !important;
+    transform: scale(1.05);
+}
+
+/* Link menu */
+.nav-link {
+    color: #01579b !important;
+    font-weight: 500;
+    transition: 0.3s;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+.nav-link:hover {
+    background-color: #b3e5fc;
+    color: #0277bd !important;
+    box-shadow: 0 2px 8px rgba(0, 150, 200, 0.2);
+}
+
+/* Dropdown */
+.dropdown-menu {
+    background-color: #e1f5fe;
+    border: 2px solid #81d4fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 150, 200, 0.2);
+}
+
+.dropdown-item {
+    color: #01579b;
+    transition: 0.3s;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+.dropdown-item:hover {
+    background-color: #b3e5fc;
+    color: #0277bd;
+}
+
+/* Tombol toggler */
+.navbar-toggler {
+    border: none;
+    background-color: #4fc3f7;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1,87,155,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Nama user */
+.navbar .nav-link.dropdown-toggle {
+    font-weight: bold;
+    color: #0277bd !important;
+}
+
+/* Efek animasi halus */
+.navbar, .dropdown-menu {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
