@@ -1,0 +1,115 @@
+/* ====== Global Style ====== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f8ff; /* biru pastel lembut */
+    color: #333;
+    margin: 20px;
+}
+
+/* Judul */
+h2, h3 {
+    text-align: center;
+    color: #4a90e2; /* biru pastel utama */
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Form Filter */
+form {
+    background: #e6f2ff;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+form input[type="date"] {
+    border: 1px solid #b3d9ff;
+    border-radius: 8px;
+    padding: 6px;
+    background: #ffffff;
+    color: #333;
+}
+
+form button {
+    background: #a7d8f5;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #7ec8f0;
+    transform: scale(1.05);
+}
+
+/* Tombol Export & Cetak */
+button.no-print {
+    background: #b3e5fc;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+button.no-print:hover {
+    background: #81d4fa;
+    transform: scale(1.05);
+}
+
+/* Tabel Rekap */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #a7d8f5;
+    color: #333;
+    font-weight: 600;
+    padding: 10px;
+}
+
+td {
+    background: #f9fcff;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #d6ecff;
+}
+
+tr:hover td {
+    background: #e6f7ff;
+}
+
+/* Total Info */
+p {
+    font-size: 16px;
+    background: #e6f2ff;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 8px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Grafik */
+canvas {
+    margin: 30px auto;
+    display: block;
+    max-width: 700px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

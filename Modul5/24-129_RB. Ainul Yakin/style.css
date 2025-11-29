@@ -1,0 +1,103 @@
+/* Simple CSS untuk tampilan seperti gambar */
+:root{
+    --bg:#f5f7fb;
+    --card:#ffffff;
+    --accent:#28a745;
+    --muted:#6c757d;
+    --danger:#dc3545;
+    --border:#e6e9ee;
+    --radius:6px;
+    font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body{
+    margin:0;
+    padding:40px;
+    background:var(--bg);
+    color:#222;
+}
+
+.container{
+    max-width:920px;
+    margin:0 auto;
+}
+
+.card{
+    background:var(--card);
+    border-radius:var(--radius);
+    box-shadow:0 6px 18px rgba(20,30,60,0.06);
+    padding:22px;
+    border:1px solid var(--border);
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:18px;
+}
+
+.header h2{
+    margin:0;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:8px 14px;
+    border-radius:6px;
+    text-decoration:none;
+    color:#fff;
+    font-weight:600;
+    font-size:14px;
+}
+
+.btn-add{
+    background:linear-gradient(180deg,#2ecc71,#1f9e4a);
+    border:1px solid rgba(0,0,0,0.04);
+    box-shadow:0 4px 10px rgba(46,204,113,0.12);
+}
+
+.table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:8px;
+}
+
+.table thead th{
+    text-align:left;
+    font-size:13px;
+    color:var(--muted);
+    padding:12px 10px;
+    border-bottom:1px solid var(--border);
+}
+
+.table tbody td{
+    padding:12px 10px;
+    border-bottom:1px solid #f0f2f5;
+    vertical-align:middle;
+    font-size:15px;
+}
+
+.actions a{
+    margin-right:8px;
+    padding:6px 10px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:13px;
+    color:#fff;
+}
+
+.actions .edit{
+    background:#f66b08;
+}
+
+.actions .delete{
+    background:var(--danger);
+}
+
+.no-data{
+    padding:18px 10px;
+    color:var(--muted);
+    text-align:center;
+}

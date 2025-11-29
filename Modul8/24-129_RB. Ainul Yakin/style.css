@@ -1,0 +1,89 @@
+/* Umum */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #b3e5fc, #e1f5fe);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form */
+#registrasi-form {
+    background-color: #ffffffcc;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 150, 200, 0.2);
+    text-align: center;
+    width: 300px;
+    border: 3px dashed #81d4fa;
+}
+
+/* Judul */
+#registrasi-form h2 {
+    color: #0288d1;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-shadow: 1px 1px #b3e5fc;
+}
+
+/* Label */
+.login-username, .login-password {
+    color: #0277bd;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Input */
+.username, .password {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #81d4fa;
+    border-radius: 15px;
+    outline: none;
+    background-color: #e1f5fe;
+    transition: 0.3s;
+}
+
+.username:focus, .password:focus {
+    border-color: #0288d1;
+    background-color: #b3e5fc;
+    box-shadow: 0 0 10px #81d4fa;
+}
+
+/* Tombol */
+.submit {
+    background-color: #81d4fa;
+    color: #01579b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: #4fc3f7;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 150, 200, 0.3);
+}
+
+/* Animasi lucu */
+#registrasi-form {
+    animation: floaty 3s ease-in-out infinite;
+}
+
+@keyframes floaty {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
