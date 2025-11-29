@@ -1,0 +1,120 @@
+/* ========== STYLE GLOBAL ========== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    margin: 20px;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ========== TABEL ========== */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px auto 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 6px 10px;
+    text-align: left;
+}
+
+th {
+    background: #e4e4e4;
+}
+
+/* ========== LINK DAN BUTTON ========== */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background: #1e40af;
+}
+
+/* ========== FLEX BOX UNTUK INDEX.PHP ========== */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box {
+    flex: 1;
+}
+
+/* ========== FORM & CONTAINER TAMBAH DATA ========== */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[readonly] {
+    background: #e9ecef;
+    color: #555;
+}
+
+button {
+    margin-top: 15px;
+    background: #2563eb;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+/* ========== ALERT (ERROR / SUCCESS) ========== */
+.alert {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.success {
+    background: #dcfce7;
+    color: #166534;
+}
